@@ -1,0 +1,9 @@
+# Limit the number of items printed in python numpy array to a maximum of 6 elements.
+
+import numpy as np
+import pandas as pd
+
+np.random.seed(100)
+rand_arr = np.random.random([3,3])/1e3
+
+rand_arr
