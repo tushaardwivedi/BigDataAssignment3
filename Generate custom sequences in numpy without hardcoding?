@@ -1,0 +1,7 @@
+Create the following pattern without hardcoding. Use only numpy functions and the below input array a
+
+import numpy as np
+import pandas as pd
+
+c = np.array([1,2,3])
+np.r_[np.repeat(c, 3), np.tile(c, 3)]
