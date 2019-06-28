@@ -1,0 +1,9 @@
+# Limit the number of items printed in python numpy array a to a maximum of 6 elements.
+
+
+import numpy as np
+import pandas as pd
+
+np.set_printoptions(threshold=6)
+limit = np.arange(15)
+limit
